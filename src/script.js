@@ -10,7 +10,7 @@ const toggleSearch = (type) => {
     const isOpen = type === "OPEN";
     $searchBox.classList[isOpen ? "add" : "remove"]('active');
     $closeBtn.classList[isOpen ? "add" : "remove"]('active');
-    $searchBox.classList[isOpen ? "add" : "remove"]('active');
+    $searchBtn.classList[isOpen ? "add" : "remove"]('active');
 }
 
 
